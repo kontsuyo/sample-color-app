@@ -7,8 +7,8 @@ export default function AddColorForm({ onNewColor = (f) => f }) {
   const submit = (event) => {
     event.preventDefault();
     onNewColor(titleProps.value, colorProps.value);
-    resetTitle("");
-    resetColor("");
+    resetTitle();
+    resetColor();
   };
 
   return (

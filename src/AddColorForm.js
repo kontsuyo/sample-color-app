@@ -20,6 +20,7 @@ export default function AddColorForm({ onNewColor = (f) => f }) {
         required //必須入力欄
       />
       <input {...colorProps} type="color" required />
+      <button>ADD</button>
     </form>
   );
 }
